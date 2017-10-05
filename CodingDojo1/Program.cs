@@ -10,8 +10,10 @@ namespace CodingDojo1
     {
         static void Main(string[] args)
         {
-            int i = 3;
+            int i = 5;
             int j = 10;
+            int xx = 100;
+
             CustomStack<string> stringStack = new CustomStack<string>();
             string test = stringStack.Pop();
             if(test == null)
